@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#230019;
+    color:#C64758;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    margin-top: 1.5rem;
+    z-index: 99;
+}
+
+.header-wrapper {
+    width:90%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 5rem;
+}
+
+ul.menu, nav {
+    padding:0; 
+    display: inline-block;
+    margin:0;
+    vertical-align: middle;
+}
+
+.menu li {
+    list-style: none;  
+    display: inline-block;     
+    margin: 0 0.5rem;
+}
+
+.menu li:last-child {
+    margin:0 0 0 0.5rem
+}
+
+.menu li a {
+    text-decoration: none;
+    color:#C64758;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.lang-switch {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0%,-50%);
+}
+
+.parallax__group {
+    top: 41%;
+}
+
+.parallax img {
+    width: 100%;
+} 
+
+#banner-wrapper {
+  position:relative;
+}
+
+#main-banner-txt {
+  position:absolute;
+  top:35%;
+  left:12%; 
+  transform:translate(0, -50%);
+  z-index: 5;
+}
+
+#main-banner-txt h1 {
+  font-size: 52px;
+  text-transform: uppercase;
+}
+
+#main-banner-txt p {
+  font-size: 35px;
+  width: 38rem;
+}
+
+#main-banner-txt a button {
+  background-color: #8d40d9;
+  padding: 0.2rem 2rem; 
+  border-radius: 5rem;
+  border:none;
+  color: #fff;
+  font-size: 25px;
+}
+
+
+/* Parallax base styles
+  --------------------------------------------- */
+
+  .parallax {
+    height: 500px; /* fallback for older browsers */
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+  }
+
+  .parallax__group {
+    position: relative;
+    height: 500px; /* fallback for older browsers */
+    height: 100vh;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+
+    top: 90%;
+  }
+
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .parallax__layer--base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 4;
+  }
+
+  .parallax__layer--back {
+    -webkit-transform: translateZ(-200px) scale(1.673);
+    transform: translateZ(-200px) scale(1.673);
+    z-index: 3;
+  }
+
+  .parallax__layer--deep {
+    -webkit-transform: translateZ(-400px) scale(2.35);
+    transform: translateZ(-400px) scale(2.35);
+    z-index: 2;
+  }
+
+  .parallax_sun {
+    width: 28rem;
+
+    -webkit-transform: translateZ(-800px) scale(3);
+    transform: translateZ(-800px) scale(3);
+    z-index: 1;
+
+    top: -28%;
+    left: 140%;
+  }
+
+
+  /* style the groups
+  --------------------------------------------- */
+
+  #group4 {
+    z-index: 2; /* slide under group 3 and 5 */
+  }

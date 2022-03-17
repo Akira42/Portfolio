@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="456" height="456" viewBox="0 0 456 456">
+  <defs>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="456" height="456"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <g id="Group_1" data-name="Group 1" transform="translate(-2252.91 -187)">
+      <path id="Path_4" data-name="Path 4" d="M2424.309,643h119.11a229.495,229.495,0,0,1-119.11,0Z" transform="translate(-2.955 -7.862)" fill="#c64758"/>
+      <path id="Path_5" data-name="Path 5" d="M2603.262,616q-8.461,5.292-17.414,9.828h-206.1q-8.948-4.54-17.415-9.828Z" transform="translate(-1.886 -7.397)" fill="#c64758"/>
+      <path id="Path_6" data-name="Path 6" d="M2637.345,589q-5.484,5.1-11.312,9.828H2338.341q-5.823-4.717-11.312-9.828Z" transform="translate(-1.278 -6.931)" fill="#c64758"/>
+      <path id="Path_7" data-name="Path 7" d="M2662.806,560q-4.644,6.059-9.68,11.793H2310.339q-5.027-5.734-9.68-11.793Z" transform="translate(-0.823 -6.431)" fill="#c64758"/>
+      <path id="Path_8" data-name="Path 8" d="M2683.207,527q-4.246,8.064-9.11,15.724H2288.639q-4.865-7.666-9.11-15.724Z" transform="translate(-0.459 -5.862)" fill="#c64758"/>
+      <path id="Path_9" data-name="Path 9" d="M2699.418,486a223.05,223.05,0,0,1-8.55,23.586H2271.289a223.1,223.1,0,0,1-8.55-23.586Z" transform="translate(-0.169 -5.155)" fill="#c64758"/>
+      <path id="Path_10" data-name="Path 10" d="M2708.311,436a227.139,227.139,0,0,1-4.7,32.431H2258.228a227.07,227.07,0,0,1-4.7-32.431Z" transform="translate(-0.01 -4.293)" fill="#c64758"/>
+      <path id="Path_11" data-name="Path 11" d="M2699.419,349.155H2262.74C2290.984,255.331,2378.057,187,2481.079,187S2671.174,255.331,2699.419,349.155Z" transform="translate(-0.169 0)" fill="#c64758"/>
+      <path id="Path_12" data-name="Path 12" d="M2708.91,418.138h-456A228.608,228.608,0,0,1,2258.217,369H2703.6A228.608,228.608,0,0,1,2708.91,418.138Z" transform="translate(0 -3.138)" fill="#c64758"/>
+    </g>
+  </g>
+</svg>

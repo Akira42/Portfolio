@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <clipPath id="clip-iPhone_X_XS_11_Pro_1">
+      <rect width="120" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="iPhone_X_XS_11_Pro_1" data-name="iPhone X/XS/11 Pro – 1" clip-path="url(#clip-iPhone_X_XS_11_Pro_1)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="60" cy="60" r="60" fill="#c64758"/>
+    <text id="VN" transform="translate(5 88)" fill="#230019" font-size="75" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">VN</tspan></text>
+  </g>
+</svg>
